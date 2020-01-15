@@ -1,0 +1,190 @@
+#front{
+  height: 0vh;
+  min-height: 141px;
+  background-color: #03103e;
+}
+.footer-section {
+    height: 641px;
+    padding-top: 109px;
+    background: #000;
+}
+.site-logo{
+	 max-width: 130px;
+    position: relative !important;
+    z-index: 99 !important;
+}
+.background{
+	background: #ee4f43;
+	background: #009cde;
+	background: #003087;
+	background: #ee4f43;
+	background: #005bff;
+	background: #ee4f43;
+	background: #e13f43;
+}
+.sidebar-bg {
+    background: #009cde !important;
+}
+.sidebar:after, .off-canvas-sidebar:after {
+    background: #003087 !important;
+    z-index: 3;
+}
+.logo{
+	text-align: center;
+}
+.logo .site-logo{
+	max-height: 100px;
+}
+#pagination_link .pagination li>a{
+	position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.job-container{
+	border: 2px solid #c7c7c74f;
+	border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#login .modal-content{
+	padding: 60px 20px
+}
+.da-home-page-text {
+    padding-top: 2rem;
+    color: #fff;
+}
+.form-applicant label{
+      margin-top: .5rem;
+    font-weight: 600;
+}
+.form-applicant input{
+    margin-bottom:.5rem;
+}
+.m-15{
+  margin: 15px;
+}
+.mbt-15{
+  margin: 15px 0;
+}
+.pad-15{
+  padding: 15px;
+}
+.job-cont{
+  background-color: #f8f9fa;
+}
+.job-ads{
+      color: #ccc;
+    font-size: 18px;
+}
+.job-ads-2{
+    color: #ccc;
+    font-size: 14px;
+}
+.modal-full {
+    min-width: 70%;
+    margin: auto;
+}
+.edbg .input-group-prepend {
+    margin-right: -1px;
+    width: 50%;
+    background: #e9ecef;
+}
+.edbg .input-group-prepend .input-group-text{
+  border: 0px !important;
+}
+.form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: 0.3125rem;
+    margin-left: 0;
+    margin-bottom: -6px;
+}
+.dialect .form-check-input, .form-other{
+  margin-left: 20px;
+}
+.dialect{
+  display: block !important;
+}
+.form-applicant .skills label {
+    margin-top: 0px !important;
+}
+.tab-content{
+  background-color: #ccc;
+  padding: 10px
+}
+.profile-pic{
+  height: 120px;
+}
+.tab-pic{
+  height: 70px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #03103e;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    color: #03103e;
+}
+.nav-pills{
+  background-color: #ccc;
+}
+.other-info{
+  margin-top: 40px;
+}
+.other-info .col-sm-3{
+  color: #ccc;
+  font-style: italic;
+}
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #03103e;
+    padding: 20px;
+    z-index: 99;
+}
+.applicant-list{
+  margin: 20px;
+  padding: 15px;
+}
+
+.bg-secondary {
+    background-color: #6c757d!important;
+    padding: 0 !important;
+}
+.footer-section{
+  height: 300px;
+  padding: 100px !important;
+}
+
+
+/*Media*/
+@media only screen and (max-width: 600px) and (min-width: 375px){
+  .form-applicant .table-responsive{
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px)  and (min-width: 601px){
+  .form-applicant .table-responsive{
+    max-width: 400px;
+  }
+}
